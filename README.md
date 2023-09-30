@@ -1,15 +1,12 @@
-# CombatTagPlus
+# CombatTagEnhanced
 
-*CombatTagPlus is the last plugin you'll ever need to stop those dirty combat loggers!*
+*CombatTagEnhanced is the last plugin you'll ever need to stop those dirty combat loggers!*
+
+*This plugin is a continuation of the famous CombatTagPlus, which is no longer maintained*
 
 ## Supports
 
-* CraftBukkit & Spigot 1.7.9
-* CraftBukkit & Spigot 1.7.10
-* Spigot 1.7.10 / 1.8 Protocol Patch
-* CraftBukkit & Spigot 1.8.0
-* CraftBukkit & Spigot 1.8.3
-* CraftBukkit & Spigot 1.8.4 / 1.8.5
+* CraftBukkit & Spigot 1.20.1
 
 ## Features
 
@@ -35,28 +32,20 @@
   * FactionsUUID 1.8 by @externo6
 * Supports Towny PVP permission
 * Works with BarAPI to show a boss bar counting down with the player's remaining combat timer
-  * _These custom BarAPI builds by @vemacs are more compatible than the official ones:_
-  * Spigot 1.8.0: [Download](http://ci.minelink.net/job/BarAPI/5/artifact/target/BarAPI.jar)
-  * Spigot 1.7.10 / 1.8 Protocol Patch: [Download](http://ci.minelink.net/job/BarAPI/4/artifact/target/BarAPI.jar)
-
-## Development Builds
-
-You can acquire development builds of CombatTagPlus from the [Minelink Network CI server](http://ci.minelink.net/job/CombatTagPlus/).
 
 ## Installation
 
-1. Obtain the latest version of CombatTagPlus from the [build server](http://ci.minelink.net/job/CombatTagPlus/).
-2. Copy or move **CombatTagPlus.jar** into your server's *plugins* folder.
-3. **Optionally** obtain and install a compatible version of BarAPI (see the *Features* section above for downloads)
-4. Start the server. _This creates a new file **plugins/CombatTagPlus/config.yml**_
-5. Edit the newly created configuration file with desired behavior.
-6. If you made any changes, run the command **/ctreload** from console or as an operator.
+1. Copy or move **CombatTagEnhanced.jar** into your server's *plugins* folder.
+2. **Optionally** obtain and install a compatible version of BarAPI (see the *Features* section above for downloads)
+3. Start the server. _This creates a new file **plugins/CombatTagEnhanced/config.yml**_
+4. Edit the newly created configuration file with desired behavior.
+5. If you made any changes, run the command **/ctreload** from console or as an operator.
 
 ## Permissions
 
 | **Permission**           | **Description**                            | **Default** |
 | -------------------------| ------------------------------------------ | ----------- |
-| ctplus.reload            | Reload CombatTagPlus configuration         | operator    |
+| ctplus.reload            | Reload CombatTagEnhanced configuration         | operator    |
 | ctplus.bypass.tag        | Bypass combat tagging                      | operator    |
 | ctplus.bypass.command    | Bypass command restrictions in combat      | operator    |
 | ctplus.bypass.blockedit  | Bypass block edit restrictions in combat   | operator    |
@@ -77,11 +66,8 @@ Thanks :)
 
 ## License
 
-CombatTagPlus is licensed to you freely under the terms of the [LGPL license](https://www.gnu.org/licenses/lgpl.html).
+CombatTagEnhanced is licensed to you freely under the terms of the [LGPL license](https://www.gnu.org/licenses/lgpl.html).
 
 ## Special Thanks To:
 
-![YourKit-Logo](https://www.yourkit.com/images/yklogo.png)
-
-[YourKit](http://www.yourkit.com/) supports open source projects with its full-featured Java Profiler.
-YourKit, LLC is the creator of [YourKit Java Profiler](https://www.yourkit.com/java/profiler/index.jsp) and [YourKit .NET Profiler](https://www.yourkit.com/.net/profiler/index.jsp), innovative and intelligent tools for profiling Java and .NET applications.
+[ByteFlux, the original creator of CombatTagPlus](https://github.com/Byteflux)
